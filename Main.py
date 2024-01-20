@@ -33,7 +33,7 @@ def show_data():
     output_text.insert(END, data + '\n')
     output_text.see(END)  # Прокрутить поле вывода вниз
     if True:
-        output_text.after(15000, show_data)
+        output_text.after(1000, show_data)
 
 root = Tk()
 root.title("COM-порт GUI")
